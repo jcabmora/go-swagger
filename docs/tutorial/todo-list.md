@@ -583,7 +583,7 @@ The swagger spec at "./swagger.yml" is valid against swagger specification 2.0
 You're ready to generate the API and start filling out some of the blanks.
 
 ```
-git:(master) ✗ !? » swagger generate server -A TodoList -f ./swagger.yml
+git:(master) ✗ !? » swagger generate server -A todo-list -f ./swagger.yml
 ... elided output ...
 2015/12/31 18:16:28 rendered main template: server.TodoList
 ± ~/go/src/github.com/go-swagger/go-swagger/examples/tutorials/todo-list/server-2
